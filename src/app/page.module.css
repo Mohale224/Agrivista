@@ -1,0 +1,59 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.header {
+  background: #2C7A7B;
+  color: white;
+  padding: 2rem 0;
+  text-align: center;
+}
+
+.nav {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.cta {
+  margin: 1.5rem 0;
+}
+
+.button {
+  background: #F6E05E;
+  color: #2C7A7B;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  text-decoration: none;
+}
+
+.main {
+  flex: 1;
+  padding: 2rem;
+}
+
+.intro, .services, .featuredProducts {
+  margin: 2rem 0;
+}
+
+.serviceGrid, .productGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 1rem;
+}
+
+.serviceCard, .productCard {
+  background: #F7FAFC;
+  border-radius: 8px;
+  padding: 1rem;
+  text-align: center;
+}
+
+.footer {
+  background: #2C7A7B;
+  color: white;
+  text-align: center;
+  padding: 1rem 0;
+}
